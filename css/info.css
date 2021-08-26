@@ -1,0 +1,19 @@
+.info__wrapper {
+}
+.info {
+  padding: 10rem 0;
+}
+.info .item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+    .info .list  {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  
+    .info .item{
+      width: 32%;
+    }
+}
